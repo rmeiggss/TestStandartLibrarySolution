@@ -2,16 +2,12 @@
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TestDataAccess;
 using TestService.Implementations;
 using TestService.Interfaces;
 using TestUnitOfWork;
 
-namespace ConsoleUINetFramework.Infraestructure
+namespace TestInfraestructure
 {
     public class ConfigurationInstallerFacade : IWindsorInstaller
     {

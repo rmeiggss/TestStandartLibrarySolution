@@ -2,7 +2,7 @@
 using Castle.Windsor;
 using System.Collections.Generic;
 
-namespace ConsoleUINetFramework.Infraestructure
+namespace TestInfraestructure
 {
     public class ResolverType
     {

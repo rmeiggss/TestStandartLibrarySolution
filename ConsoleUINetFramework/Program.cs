@@ -1,10 +1,6 @@
-﻿using ConsoleUINetFramework.Infraestructure;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TestInfraestructure;
 using TestService.Interfaces;
 
 namespace ConsoleUINetFramework

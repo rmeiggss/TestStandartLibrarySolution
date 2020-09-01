@@ -54,9 +54,6 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
-      <HintPath>..\packages\AutoMapper.10.0.0\lib\net461\AutoMapper.dll</HintPath>
-    </Reference>
     <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <HintPath>..\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
@@ -76,10 +73,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infraestructure\AutoMapperInstaller.cs" />
-    <Compile Include="Infraestructure\ConfigurationInstallerFacade.cs" />
-    <Compile Include="Infraestructure\Profiler.cs" />
-    <Compile Include="Infraestructure\ResolverType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -91,6 +84,10 @@
     <ProjectReference Include="..\TestDataAccess\TestDataAccess.csproj">
       <Project>{8C0FB652-C715-45B4-A1F2-F5D9A01E24AE}</Project>
       <Name>TestDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestInfraestructure\TestInfraestructure.csproj">
+      <Project>{2D608C51-92BB-4DF8-B938-9E061E41EA41}</Project>
+      <Name>TestInfraestructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\TestModels\TestModels.csproj">
       <Project>{86B23EA7-B268-4A4C-9630-08BCD4144CCE}</Project>

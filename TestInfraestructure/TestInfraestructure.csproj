@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="Castle.Windsor" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestDataAccess\TestDataAccess.csproj" />
+    <ProjectReference Include="..\TestService\TestService.csproj" />
+    <ProjectReference Include="..\TestUnitOfWork\TestUnitOfWork.csproj" />
+  </ItemGroup>
+
+</Project>

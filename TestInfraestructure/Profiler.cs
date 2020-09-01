@@ -2,7 +2,7 @@
 using TestModels.Models;
 using TestService.DTO;
 
-namespace ConsoleUINetFramework.Infraestructure
+namespace TestInfraestructure
 {
     public class Profiler : Profile
     {

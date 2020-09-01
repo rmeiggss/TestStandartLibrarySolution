@@ -4,9 +4,9 @@ using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 using System.Linq;
 
-namespace ConsoleUINetFramework.Infraestructure
+namespace TestInfraestructure
 {
-    class AutoMapperInstaller : IWindsorInstaller
+    public class AutoMapperInstaller : IWindsorInstaller
     {
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
